@@ -1,0 +1,47 @@
+.lead__title {
+  margin: 56px auto 32px;
+  padding: 0;
+  max-width: 720px;
+  max-height: 200px;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: 900;
+  text-align: center;
+}
+
+/*для ширины, меньше 1280*/
+@media (max-width: 1279.99px) {
+  .lead__title {
+    max-width: 720px;
+    max-height: 200px;
+    margin: 48px auto 32px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1023.99px) {
+  .lead__title {
+    max-width: 720px;
+    max-height: 200px;
+    margin: 48px auto 32px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.99px) {
+  .lead__title {
+    max-width: 288px;
+    max-height: 88px;
+    margin: 48px auto 16px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+  }
+}

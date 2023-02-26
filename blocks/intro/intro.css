@@ -1,0 +1,31 @@
+/* 1280 */
+.intro {
+  margin: 0 auto;
+  max-width: 984px;
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 1279.99px) {
+  .intro {
+    max-width: 928px;
+    padding: 0 48px;
+  }
+}
+
+/* 768-1024 */
+@media (max-width: 1023.99px) {
+  .intro {
+    max-width: 720px;
+    margin-top: 88px;
+    padding-left: 24px;
+  }
+}
+
+/*320-768*/
+@media screen and (max-width: 767.99px) {
+  .intro {
+    max-width: 288px;
+    margin-top: 64px;
+    padding-left: 16px;
+  }
+}
