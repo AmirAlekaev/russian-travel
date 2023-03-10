@@ -14,7 +14,6 @@
 /*1024-1279*/
 @media (max-width: 1279px) {
   .place {
-    row-gap: 48px;
     column-gap: 32px;
   }
 }
@@ -22,7 +21,6 @@
 /*768-1023*/
 @media (max-width: 1023px) {
   .place {
-    row-gap: 48px;
     column-gap: 28px;
   }
 }

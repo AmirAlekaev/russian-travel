@@ -1,4 +1,15 @@
 .page {
+    /*сглаживание В Mozilla Firefox*/
+    -moz-osx-font-smoothing: grayscale;
+    /*сглаживание В Safari и во всех браузерах 
+    на платформе Chromium (например, Google Chrome, Яндекс Браузер или Opera */
+    -webkit-font-smoothing: antialiased;
+    /*Подгонка размера текста*/
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    /*рендеринг*/
+    text-rendering: optimizeLegibility;
     margin: 0 auto;
     max-width: 1184px;
     height: 100%;
