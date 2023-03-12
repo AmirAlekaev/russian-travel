@@ -2,9 +2,8 @@
   margin: 0;
   margin-bottom: 32px;
   max-width: 720px;
-  max-height: 200px;
   font-size: 96px;
-  line-height: 86%;
+  line-height: 100px;
   font-weight: 900;
   text-align: center;
 }
@@ -14,8 +13,7 @@
   .lead__title {
     margin-bottom: 16px;
     max-width: 288px;
-    max-height: 88px;
     font-size: 40px;
-    line-height: 91%;
+    Line-height: 44px;
   }
 }

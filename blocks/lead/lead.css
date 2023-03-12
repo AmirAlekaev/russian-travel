@@ -18,9 +18,3 @@
     margin-right: 0;
   }
 }
-
-@media (max-width: 767px) {
-  .lead {
-    margin-top: 50px;
-  }
-}
